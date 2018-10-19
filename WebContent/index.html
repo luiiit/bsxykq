@@ -1,0 +1,87 @@
+<!DOCTYPE html >
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+<title>登录</title>
+<link href="Bootstraplogin/css/bootstrap.min.css" title="" rel="stylesheet" />
+<link title="orange" href="Bootstraplogin/css/login.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="/bsxykq/js/jquery-2.1.0.js"></script>
+<script type="text/javascript" src="/bsxykq/js/showMember.js"></script>
+
+
+<script type="text/javascript">
+
+function login(){
+	if($("[name='username']").val() == ""){
+		$.message("warn","用户名不能为空");
+		return false;
+	}
+	if($("[name='password']").val()==""){
+		$.message("warn","密码不能为空");
+		return false;
+	}
+	$.ajax({
+		url:getAppRoot()+"/login/login.jhtml",
+		data:$("#loginForm").serialize(),
+		type: "post",
+		dataType: "json",
+		cache: false,
+		success: function(message) {
+			if(message.type == "success"){
+				$("#username2").val($("[name='username']").val());
+				$("#jumpForm").submit();
+			}else{
+				$.message("warn",message.msg);
+			}
+		}
+	})
+}
+
+function reloadCode(){
+	$("#imgSignCode").attr("src","/bsxykq/login/getImg.jhtml?"+Math.random());
+}
+
+</script>
+</head>
+
+<body>
+  
+  <div style="height:1px;"></div>
+  <div class="login">
+     <header>
+	    <h1>登录</h1>
+	 </header>
+	 <div class="sr">
+	    <form id="loginForm" action="/login/login.jhtml" method="post">
+		    <div class="name">
+				<label>
+				<i class="sublist-icon glyphicon glyphicon-user"></i>
+				</label>
+				<input type="text"  placeholder="这里输入登录账号" class="name_inp" name="username">
+			</div>
+			 <div class="name">
+				<label>
+				<i class="sublist-icon glyphicon glyphicon-pencil"></i>
+				</label>
+				<input type="password"  placeholder="这里输入登录密码" class="name_inp" name="password">
+			</div>
+				 <div class="name" id="yzm" style="float:left;width:70%">
+				<label>
+				<i class="sublist-icon glyphicon glyphicon-pencil"></i>
+				</label>
+				<input type="text"  placeholder="输入右侧验证码" class="name_mini" style="float:left;" > 
+				</div>
+				<img  id="imgSignCode" src="/bsxykq/login/getImg.jhtml" onclick="reloadCode()" title="重新获取" style="cursor:pointer;float:right;vertical-align:middle;"/>
+			
+			<input type="button" class="dl"  value="登陆" onclick="login()"></input>
+			<div align="center"><a href="#">忘记密码？</a></div>
+		</form>
+	 </div>
+  </div>
+<form action="admin/index.jhtml" method="post" id="jumpForm">
+<input name="username" id="username2"/>
+</form>
+
+</body>
+</html>

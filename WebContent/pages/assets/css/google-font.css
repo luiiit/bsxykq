@@ -1,0 +1,447 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/DXI1ORHCpsQm3Vp6mXoaTSUUniRZcd_wq8DYmIfsw2A.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/DXI1ORHCpsQm3Vp6mXoaTeXREeHhJi4GEUJI9ob_ak4.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/DXI1ORHCpsQm3Vp6mXoaTY0Uz7fbu6RM5MPetubMKio.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/DXI1ORHCpsQm3Vp6mXoaTfzy0yu4vcvNhe7QLuoE8rU.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/DXI1ORHCpsQm3Vp6mXoaTc9-ZSaZ3mOOsU9E1f6DGWc.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/DXI1ORHCpsQm3Vp6mXoaTYZI5FoslwusAsZHK_V0XCI.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/DXI1ORHCpsQm3Vp6mXoaTRUOjZSKWg4xBWp_C_qQx0o.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(../fonts/K88pR3goAWT7BTt32Z01m1tXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(../fonts/RjgO7rYTmqiVp7vzi-Q5UVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(../fonts/ttwNtsRpgsxVmgGGmiUOEltXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(../fonts/LWCjsQkB6EMdfHrEVqA1KVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(../fonts/xozscpT2726on7jbcb_pAltXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(../fonts/59ZRklaO5bWGqF5A9baEEVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(../fonts/u-WUoqrET9fUeobQW7jkRVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(../fonts/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+.title{
+background-color:#f5f5f5;
+height: 37px;
+line-height: 37px;
+font-size: 15px;
+color: #494949;
+padding-left:8px;
+border-bottom: 2px ;
+position: relative;
+font-weight: 700;
+}
+input .text{
+min-width: 150px;
+height: 24px;
+line-height: 24px;
+padding: 0 4px;
+color: #666;
+}
+.searchDiv dl{
+	display: inline-block;
+margin-bottom: 12px;
+height: 26px;
+float: left;
+margin-right: 32px;
+}
+.searchDiv dt{
+display: inline-block;
+float: left;
+height: 26px;
+line-height: 24px;
+min-width: 65px;
+}
+.searchDiv dd{
+float:left;
+}
+.searchDiv{
+
+}
+a.iconButton#searchBtn {
+    background: #6d8aff;
+    color: #FFF;
+    border: solid 1px #6c89ff;
+}
+a.iconButton, a.button {
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    display: -moz-inline-stack;
+    float: left;
+    padding: 0 15px;
+    color: #5f5f5f;
+    outline: 0;
+    border: 1px solid #e8e8e8;
+    background: #fafbff;
+    margin-right: 3px;
+    font-size: 13px;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    color: #555;
+}
+.bar{
+	margin-top:8px;
+}
+form#inputForm {
+    margin: 16px 20px;
+    border: solid 1px #E9E9E9;
+}
+ul.tab input.current {
+    color: #ffffff;
+    background: #02aae9;
+    margin-top: -1px;
+    height: 33px;
+    margin-left: -1px;
+    border-right: none;
+    line-height: 32px;
+}
+table.input {
+    width: 100%;
+    word-break: break-all;
+    font-family: "microsoft yahei", Tahoma, Arial, Helvetica, Sans-serif;
+    margin-top: 40px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+table.input th {
+    line-height: 36px;
+    padding: 0 10px 0 8px;
+    font-weight: normal;
+    text-align: right;
+    white-space: nowrap;
+    color: #424242;
+}
+span.requiredField {
+    padding-right: 3px;
+    color: #ff6d6d;
+    font-size: 10px;
+}
+table.input td {
+    padding: 4px 15px;
+}
+ul.tab {
+    height: 31px;
+    border-bottom: solid 2px #02aae9;
+    background: #F9F9F9;
+}
+ul {
+    list-style-type: none;
+}
+
+table.input td select {
+    border: solid 1px #e1e1e1;
+    height: 28px;
+    border-radius: 2px;
+    min-width: 80px;
+}
+select.text {
+    width: 190px;
+    height: 30px;
+}
+input.text, select.text {
+    width: 180px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0px 4px;
+    color: #666666;
+    border: solid 1px #dcdcdc;
+    height: 28px;
+    border-radius: 2px;
+}
+input.button {
+    height: 34px;
+    * line-height: 22px;
+    display: inline-block;
+    display: -moz-inline-stack;
+    padding: 0px 14px;
+    margin-right: 10px;
+    color: #444444;
+    cursor: pointer;
+    * overflow: visible;
+    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    outline: none;
+    blr: expression(this.hideFocus = true);
+    background: #02aae9;
+        background-position-x: 0%;
+        background-position-y: 0%;
+    color: #FFF;
+    border: none;
+    font-family: "microsoft yahei", Tahoma, Arial, Helvetica, Sans-serif;
+    border-radius: 2px;
+    padding: 0 34px;
+    min-width: 120px;
+}
+table.btn-table td .back-button {
+    background: #ececec;
+    color: #666;
+}
+table.btn-table td .sub-button, table.btn-table td .back-button {
+    width: 120px;
+    height: 36px;
+    border: none;
+    margin: 0 10px;
+    font-family: "microsoft yahei", Tahoma, Arial, Helvetica, Sans-serif;
+    border-radius: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
+input.button.back-button {
+    background: #ececec;
+    color: #666;
+}
+
+div.xxDialog {
+	display: none;
+	position: fixed;
+	_position: absolute;
+	top: 25%;
+	_top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(25 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + "px");
+	left: 50%;
+	z-index: 100;
+	overflow: hidden;
+	-webkit-box-shadow: 1px 1px 6px #999999;
+	-moz-box-shadow: 1px 1px 6px #999999;
+	box-shadow: 1px 1px 6px #999999;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#e5e5e5,direction=0,strength=3) progid:DXImageTransform.Microsoft.Shadow(color=#d4d4d4,direction=90,strength=3) progid:DXImageTransform.Microsoft.Shadow(color=#d4d4d4,direction=180,strength=3) progid:DXImageTransform.Microsoft.Shadow(color=#e5e5e5,direction=270,strength=3)";
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#e5e5e5,direction=0,strength=3) progid:DXImageTransform.Microsoft.Shadow(color=#d4d4d4,direction=90,strength=3) progid:DXImageTransform.Microsoft.Shadow(color=#d4d4d4,direction=180,strength=3) progid:DXImageTransform.Microsoft.Shadow(color=#e5e5e5,direction=270,strength=3);
+	*filter: none;
+	border: 1px solid #779cb0;
+	background: url(../../../images/common.gif) 0px -660px repeat-x #ffffff;
+}
+
+
+div.xxDialog .dialogTitle {
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	color: #666666;
+	font-weight: bold;
+	cursor: move;
+	background: url(../../../images/common.gif) 0px -210px repeat-x;
+}
+
+div.xxDialog .dialogClose {
+	width: 25px;
+	height: 19px;
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	cursor: pointer;
+	background: url(../../../images/common.gif) 0px -330px no-repeat;
+}
+
+div.xxDialog .dialogContent {
+	height: 80px;
+}
+
+
+div.xxDialog .dialogClose:hover {
+	background-position: -30px -330px;
+}
+
+div.xxDialog .dialogwarnIcon {
+	line-height: 24px;
+	padding-left: 30px;
+	margin: 50px 0px 40px 60px;
+	background: url(../../../images/common.gif) -60px -360px no-repeat;
+}
+
+div.xxDialog .dialogsuccessIcon {
+	line-height: 24px;
+	padding-left: 30px;
+	margin: 50px 0px 40px 60px;
+	background: url(../../../images/common.gif) -30px -390px no-repeat;
+}
+
+div.xxDialog .dialogerrorIcon {
+	line-height: 24px;
+	padding-left: 30px;
+	margin: 50px 0px 40px 60px;
+	background: url(../../../images/common.gif) 0px -420px no-repeat;
+}
+
+div.xxDialog .dialogBottom {
+	margin-top:282px;
+	height: 34px;
+	padding-top: 6px;
+	text-align: center;
+	background: url(../../../images/common.gif) 0px -270px repeat-x #ffffff;
+}
+
+div.xxDialog .dialogIframe {
+	width: 2000px;
+	height: 2000px;
+	position: absolute;
+	left: -100px;
+	top: -100px;
+	z-index: -1;
+}
+
+/* ---------- Message ---------- */
+div.xxMessage{padding:10px 30px;display:none;position:fixed;top:25%;left:50%;z-index:100;overflow:hidden;-webkit-box-shadow:1px 1px 6px #999;-moz-box-shadow:1px 1px 6px #999;box-shadow:1px 1px 6px #999;-ms-filter:"progid:DXImageTransform.Microsoft.Shadow(color=#e5e5e5,direction=0,strength=3) progid:DXImageTransform.Microsoft.Shadow(color=#d4d4d4,direction=90,strength=3) progid:DXImageTransform.Microsoft.Shadow(color=#d4d4d4,direction=180,strength=3) progid:DXImageTransform.Microsoft.Shadow(color=#e5e5e5,direction=270,strength=3)";filter:progid:DXImageTransform.Microsoft.Shadow(color=#e5e5e5, direction=0, strength=3) progid:DXImageTransform.Microsoft.Shadow(color=#d4d4d4,direction=90,strength=3) progid:DXImageTransform.Microsoft.Shadow(color=#d4d4d4,direction=180,strength=3) progid:DXImageTransform.Microsoft.Shadow(color=#e5e5e5,direction=270,strength=3);border:1px solid #999;background-color:#fff}
+div.xxMessage .messageContent{line-height:24px;padding:0 10px 0 30px;color:#666}
+div.xxMessage .messagewarnIcon{background:url(../../../images/common.gif) -60px -360px no-repeat}
+div.xxMessage .messagesuccessIcon{background:url(../../../images/common.gif) -30px -390px no-repeat}
+div.xxMessage .messageerrorIcon{background:url(../../../images/common.gif) 0 -420px no-repeat}
+div.xxMessage .messageIframe{width:2000px;height:2000px;position:absolute;left:-100px;top:-100px;z-index:-1}
+
+td a{
+	color:blue;
+}
+
+.search {
+    width: 180px;
+    height: 22px;
+    position: relative;
+    padding: 2px 0;
+    border: 0px solid #eee;
+}
+
+.search input[type="text"] {
+    border: none;
+    height: 22px;
+}
+
+.search button, .search .searchBtn {
+    width: 20px;
+    height: 22px;
+    float: right;
+    margin: 0;
+    position: relative;
+    left: -5px;
+    cursor: pointer;
+    outline: 0;
+    blr: expression(this.hideFocus = true);
+    top:-25px;
+    border: none;
+    background: url(../../../images/icon-search.jpg) no-repeat center;
+}
+
+.dialogOverlay {
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: fixed;
+	_position: absolute;
+	top: 0px;
+	_top: expression(documentElement.scrollTop + documentElement.clientHeight - this.offsetHeight);
+	left: 0px;
+	z-index: 99;
+	filter: alpha(opacity = 30);
+	-moz-opacity: 0.30;
+	opacity: 0.30;
+	zoom: 1;
+	background: url(../images/dialog_overlay.png);
+}
