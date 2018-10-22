@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.mysql.cj.util.StringUtils;
+import com.mysql.jdbc.StringUtils;
 
 import edu.bsuc.entity.Teacher;
 import edu.bsuc.mapper.CommonMapper;

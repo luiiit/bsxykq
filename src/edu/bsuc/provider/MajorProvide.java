@@ -4,7 +4,7 @@ import java.util.Map;
 
 import org.apache.ibatis.annotations.Select;
 
-import com.mysql.cj.util.StringUtils;
+import com.mysql.jdbc.StringUtils;
 
 
 public class MajorProvide {

@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.mysql.cj.util.StringUtils;
+import com.mysql.jdbc.StringUtils;
 
 import edu.bsuc.entity.Institute;
 import edu.bsuc.mapper.CommonMapper;

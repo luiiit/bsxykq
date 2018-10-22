@@ -10,7 +10,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.mysql.cj.util.StringUtils;
+import com.mysql.jdbc.StringUtils;
 
 import edu.bsuc.entity.Major;
 import edu.bsuc.mapper.InstituteMapper;

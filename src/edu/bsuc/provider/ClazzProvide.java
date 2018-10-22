@@ -2,8 +2,7 @@ package edu.bsuc.provider;
 
 import java.util.Map;
 
-import com.mysql.cj.util.StringUtils;
-
+import com.mysql.jdbc.StringUtils;
 
 public class ClazzProvide {
 
