@@ -14,8 +14,8 @@
         <property name="jar.dest" value="${basedir}/bsxykq/jar"/>  
         <property name="war.dest" value="${basedir}/bsxykq/war"/>  
           
-        <property name="tomcat.home" value="F:\otherSoft\apache-tomcat-8.5.32"/>  
-        <property name="j2eelib.dir" value="D:\softWare\java\jdk"/>  
+        <property name="tomcat.home" value="/opt/apache-tomcat-8.5.34/"/>  
+        <property name="j2eelib.dir" value="/opt/jdk1.8.0_181/"/>  
           
         <path id="classpath">  
             <fileset dir="${j2eelib.dir}">  
