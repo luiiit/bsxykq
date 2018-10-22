@@ -50,7 +50,9 @@
             <fileset dir="${build.src}">  
                 <include name="**/*.properties"/>  
             </fileset>  
-        	
+        	 <fileset dir="${base.propreties}">  
+        	    <include name="**/*.properties"/>  
+        	  </fileset>  
         </copy>  
     </target>  
       
