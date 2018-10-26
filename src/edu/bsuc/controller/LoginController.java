@@ -27,6 +27,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import edu.bsuc.entity.Member;
 import edu.bsuc.mapper.LoginMapper;
 import edu.bsuc.utils.StrUtil;
+import redis.clients.jedis.Jedis;
 
 @Controller("loginController")
 @RequestMapping("/login")
@@ -39,6 +40,12 @@ public class LoginController {
 	@ResponseBody
 	public Map<String,Object> login(ModelMap model,String password,String username,
 			 HttpServletRequest request, HttpSession session){
+		
+		Jedis jedis = new Jedis("localhost");
+		System.out.println("链接成功");
+		System.out.println("服务器状态"+jedis.ping());
+		jedis.set("key", "153327162");
+		
 		Map<String, Object> map = new HashMap<String,Object>();
 		Member  member =loginMapper.login(username, password);
 		if(member != null && member.getUsername().equals(username)){
