@@ -30,6 +30,7 @@ import edu.bsuc.mapper.StudentMapper;
 import edu.bsuc.service.StudentService;
 import edu.bsuc.utils.ExcelView;
 import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisPoolConfig;
 
 @Controller("studentController")
 @RequestMapping("/admin/student")
@@ -47,7 +48,7 @@ public class StudentController {
 	
 	@RequestMapping(value="/list.jhtml",method=RequestMethod.GET)
 	public String list(String no,String name,String phone,String major,String institute,ModelMap model,String clazz,Long clazzId){
-		System.out.println(new Jedis("localhost").get("key"));
+		
 		Map<String,String> map = new HashMap<String,String>();
 		map.put("no", no);
 		map.put("name", name);
@@ -55,7 +56,7 @@ public class StudentController {
 		map.put("institute",institute);
 		map.put("phone", phone);
 		map.put("clazzId", clazzId == null?"":clazzId.toString());
-		
+		System.out.println("dsssssssssss");
 		model.addAttribute("list",studentMapper.list(map));
 		
 		model.addAttribute("no", no);
